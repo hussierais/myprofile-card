@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #141414;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #0e0d0d;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      width: 320px;
+      color: white;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 5px;
+    }
+
+    .location {
+      color: #d62392;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+
+    .bio {
+      font-size: 0.85rem;
+      color: #d3d3d3;
+      margin-bottom: 20px;
+    }
+
+    .links a {
+      display: block;
+      background-color: #131212;
+      padding: 12px;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 12px;
+      transition: background-color 0.3s ease;
+    }
+
+    .links a:hover {
+      background-color: #d41961;
+      color: #141414;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="C:\Users\Smart Class 2\Pictures\hussierais.jpg" alt="Profile" class="avatar" />
+    <h1>Hussaina Abdullahi Ra'is</h1>
+    <p class="location">Kaduna, Nigeria</p>
+    <p class="bio">"Front-end developer."</p>
+
+    <div class="links">
+      <a href="#">GitHub</a>
+      <a href="#">Frontend Master</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
